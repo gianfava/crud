@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+/* Adicione esta classe de animação personalizada */
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Restante do seu CSS permanece inalterado */
+h1{
+    font-weight: 300;
+    color: rgb(104, 104, 104);
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #e4e4e4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #cdcdcd;
+    border-radius: 15px 50px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+  
+}
+
+/* Adicione a regra CSS para a animação slide-out-right */
+.slide-out-right {
+    animation: slideOutRight 0.5s ease-in-out;
+}
+
+.table{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    overflow:hidden;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+
